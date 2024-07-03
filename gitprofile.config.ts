@@ -118,13 +118,13 @@ const CONFIG = {
   educations: [
     {
       institution: 'Shahrood University of Technology',
-      degree: 'MSc - Artificial Intelligence and Robotics',
+      degree: 'MSc Artificial Intelligence and Robotics',
       from: '2021',
       to: '2023',
     },
     {
       institution: 'Zand Institute of Higher Education',
-      degree: 'Bachelor - Computer engineering',
+      degree: 'Bachelor Computer engineering',
       from: '2017',
       to: '2021',
     },
