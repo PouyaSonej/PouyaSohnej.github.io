@@ -27,7 +27,7 @@ projects: {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['PouyaSonej/Image-processing_GonalezBook', 'PouyaSonej/Natural-language-processing-NLP','PouyaSonej/Python_ImageProcessing ',
+        projects: ['PouyaSonej/Image-processing_GonalezBook', 'PouyaSonej/Natural-language-processing-NLP','PouyaSonej/Python_ImageProcessing',
                   'PouyaSonej/cs-video-courses','PouyaSonej/Neural-Networks','PouyaSonej/Diabetic-Retinopathy'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
