@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      display: false, // Display GitHub projects?
       header: 'Bio',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
@@ -94,7 +94,7 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Shahrood university of Technology',
+      company: 'Shahrood University of Technology',
       position: 'Research Assistant',
       from: 'June 2023',
       to: 'Present',
@@ -118,16 +118,14 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Shahrood University of Technology',
+      degree: 'MSc',
+      to: '2023',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Zand Institute of Higher Education',
+      degree: 'Bachelor',
+      to: '2021',
     },
   ],
   publications: [
@@ -165,7 +163,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'fantasy',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
