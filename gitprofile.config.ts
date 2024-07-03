@@ -27,7 +27,9 @@ projects: {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['pouyasonej/i'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['pouyasonej/Image-processing_GonalezBook', 'pouyasonej/Natural-language-processing-NLP',
+                   'pouyasonej/Python_ImageProcessing', 'pouyasonej/cs-video-courses',
+                   'pouyasonej/Neural-Networks', 'pouyasonej/Diabetic-Retinopathy'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
