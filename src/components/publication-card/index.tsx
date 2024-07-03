@@ -137,7 +137,7 @@ const PublicationCard = ({
                 </div>
                 <div className="col-span-2">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {loading ? renderSkeleton() : }
+                    {loading ? renderSkeleton() : renderSkeleton()}
                   </div>
                 </div>
               </div>
