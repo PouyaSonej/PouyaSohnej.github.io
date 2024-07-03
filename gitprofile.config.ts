@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        'hi', // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        'hi' // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
