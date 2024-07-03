@@ -12,7 +12,7 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: true, // Display GitHub projects?
+      // display: true, // Display GitHub projects?
       header: 'Bio',
       // mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       // automatic: {
@@ -27,8 +27,8 @@ const CONFIG = {
       //   // Properties for manually specifying projects
       //   projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       // },
-       description:
-            'Hi',
+      description:
+            'Hiiiiiiiiiiiii',
     },
     external: {
       header: 'My Projects',
