@@ -12,9 +12,9 @@ const CONFIG = {
   base: '/',
   projects: {
     github: {
-      display: false, // Display GitHub projects?
+      display: true, // Display GitHub projects?
       header: 'Bio',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['hi'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -120,11 +120,13 @@ const CONFIG = {
     {
       institution: 'Shahrood University of Technology',
       degree: 'MSc',
+      from: '2021',
       to: '2023',
     },
     {
       institution: 'Zand Institute of Higher Education',
       degree: 'Bachelor',
+      from: '2017',
       to: '2021',
     },
   ],
