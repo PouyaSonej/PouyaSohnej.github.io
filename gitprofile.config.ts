@@ -13,7 +13,7 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Github Projects',
+      header: 'Bio',
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
@@ -52,66 +52,60 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Pouya Sohrabinejad',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'PouyaSohrabinejad',
+    twitter: 'pouya.sonej',
     researchGate: '',
-    facebook: '',
-    instagram: '',
-    reddit: '',
-    threads: '',
-    youtube: '', // example: 'pewdiepie'
-    udemy: '',
-    dribbble: '',
-    behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
-    skype: '',
-    telegram: '',
-    website: 'https://www.arifszn.com',
-    phone: '',
-    email: 'arifulalamszn@gmail.com',
+    instagram: 'pouya.sonej',
+    threads: 'pouya.sonej',
+    telegram: '@qpouya',
+    phone: '+98 - 9934465567',
+    email: 'pouyasohnej@gmail.com',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1WyUGicMXvb2pZ77cxhUyUSxTTE0Upkxx/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
+    'Python',
+    'MATLAB',
+    'C',
+    'C++',
+    'C#',
+    'Assembly',
     'PHP',
-    'Laravel',
+    'HTML',
+    'CSS',
     'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
+    'wordpress',
     'Git',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Jupyter',
+    'Pycharm',
+    'Kaggle',
+    'Tensorflow',
+    'Sickit-learn', 
+    'Pytorch',
+    'Proteus'
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Shahrood university of Technology',
+      position: 'Research Assistant',
+      from: 'June 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'shahroodut.ac.ir',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Gam',
+      position: 'Hardware Technician',
+      from: 'July 2021',
+      to: 'Present',
+      companyLink: 'https://.com',
     },
   ],
   certifications: [
