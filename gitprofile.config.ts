@@ -15,11 +15,11 @@ projects: {
 
     github: {
       display: true, // Display GitHub projects?
-      header: 'Bio',
+      header: 'Github Projects',
       mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 5, // How many projects to display.
+        limit: 8, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -27,8 +27,7 @@ projects: {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['pouyasonej/Image-processing_GonalezBook', 'pouyasonej/Natural-language-processing-NLP','pouyasonej/Python_ImageProcessing',
-                  'pouyasonej/cs-video-courses','pouyasonej/Neural-Networks','pouyasonej/Diabetic-Retinopathy'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['pouyasonej/i'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
