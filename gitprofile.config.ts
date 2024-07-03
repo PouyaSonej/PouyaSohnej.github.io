@@ -10,22 +10,25 @@ const CONFIG = {
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
   base: '/',
+  projects: {
     github: {
       display: true, // Display GitHub projects?
       header: 'Bio',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
-      automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
-        exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
-        },
-      },
-      manual: {
-        // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
-      },
+      // mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      // automatic: {
+      //   sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+      //   limit: 8, // How many projects to display.
+      //   exclude: {
+      //     forks: false, // Forked projects will not be displayed if set to true.
+      //     projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      //   },
+      // },
+      // manual: {
+      //   // Properties for manually specifying projects
+      //   projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+      // },
+       description:
+            'Hi',
     },
     external: {
       header: 'My Projects',
@@ -118,13 +121,13 @@ const CONFIG = {
   educations: [
     {
       institution: 'Shahrood University of Technology',
-      degree: 'MSc Artificial Intelligence and Robotics',
+      degree: 'MSc-Artificial Intelligence and Robotics',
       from: '2021',
       to: '2023',
     },
     {
       institution: 'Zand Institute of Higher Education',
-      degree: 'Bachelor Computer engineering',
+      degree: 'Bachelor-Computer engineering',
       from: '2017',
       to: '2021',
     },
