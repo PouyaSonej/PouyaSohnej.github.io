@@ -177,7 +177,7 @@ projects: {
       authors: 'Pouya Sohrabinejad, Prof. Fateh',
       link: '',
       description:
-        'Diabetic retinopathy is an eye condition that can cause vision loss and blindness in people who have diabetes. It affects blood vessels in the retina (the light-sensitive layer of tissue in the back of your eye).',
+        'Diabetic retinopathy is an eye condition that can cause vision loss and blindness in people who have diabetes. It affects blood vessels in the retina (the light-sensitive layer of tissue in the back of your eye). It can cause serious eye damage like blurred vision, black shapes, or dots in the vision area and in the worst cases, if left undiagnosed and untreated, it can cause blindness.',
     },
 
   ],
