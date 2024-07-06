@@ -168,6 +168,25 @@ projects: {
       from: '2017',
       to: '2021',
     },
+      {
+      institution: 'Gam Institute(Iran technical and vocational organization',
+      degree: 'Reverse Engineering',
+      from: '2019',
+      to: '2020',
+    },
+    {
+      institution: 'Gam Institute(Iran technical and vocational organization',
+      degree: 'PC&LapTop Hardware',
+      from: '2019',
+      to: '2020',
+    },
+    {
+      institution: 'Gam Institute(Iran technical and vocational organization',
+      degree: 'Mobile devices Hardware',
+      from: '2019',
+      to: '2020',
+    },
+
   ],
   publications: [
     {
